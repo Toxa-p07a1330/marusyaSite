@@ -1,0 +1,41 @@
+{
+  
+  "Lessons":
+  {
+		"Lesson_1" : {
+			"1" : {
+			"1word1": "1trance1"
+			},
+			"2" : {
+			"1word2": "1trance2"
+			},
+			"3" : {
+			"1word3": "1trance3"
+			}
+		},
+		
+		"Lesson_2" : {
+			"1" : {
+			"2word1": "2trance1"
+			},
+			"2" : {
+			"2word2": "2trance2"
+			},
+			"3" : {
+			"2word3": "2trance3"
+			}
+		},
+		
+		"Lesson_3" : {
+			"1" : {
+			"3word1": "3trance1"
+			},
+			"2" : {
+			"3word2": "3trance2"
+			},
+			"3" : {
+			"3word3": "3trance3"
+			}
+		}
+	}
+}
