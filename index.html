@@ -1,10 +1,10 @@
-<html>
+﻿<html>
 <head>
-    <title>Name of site</title>
+    <title>Английский язык</title>
     <style>
         .header{
             height: 15%;
-            width: 100%;
+            width: 80%;
             font-size: 3em;
             display: flex;
             background-color: white;
@@ -15,7 +15,7 @@
         .listOfLessons{
             float: left;
             height: 85%;
-            width: 25%;
+            width: 16%;
             display: block;
         }
         .textPart{
@@ -27,8 +27,10 @@
         }
         .kdpv{
             display: inline-block;
-            width: 25%;
+            width: 32%;
             float: right;
+            margin-top: -130px;
+
         }
 
         .lessonBody{
@@ -39,8 +41,11 @@
         }
         .image{
             position: relative;
-            display: inline-block;
+            display: block;
             float: left;
+            margin-top: 100px;
+            
+            
         }
         .arrow{
             display: flex;
@@ -59,13 +64,13 @@
             border: 1px solid red;
             float: left;
             margin: auto;
-            font-size: 72px;
+            font-size: 77px;
 
         }
         .lessonTitle{
             font-size: 26px;
             display: flex;
-            width: 50%;
+            width: 30%;
 
         }
         .clickerText{
@@ -73,24 +78,38 @@
             text-align: center;
 
         }
+	table.lessonTable{
+            font-size: 26px;
+	    margin-top: 120px;
+
+        }
     </style>
 
 </head>
 <body>
 <div id = "header" class="header">
-     <div class="image"> <img src="res/logo.png" height="100%" /></div>
-    <div style="margin: auto">title of site</div>
+     <div class="image"> <img src="res/logo.png" height="110px" /></div>
+    <div style="margin: auto">Английский язык     </div>
 </div>
 <div id = "major" class="major">
     <div id = "listOfLessons" class="listOfLessons">
-      <table>
-          <tr><td onclick="openLsn(1)">lsn1</td></tr>
-          <tr><td onclick="openLsn(2)">lsn2</td></tr>
-          <tr><td onclick="openLsn(3)">lsn3</td></tr>
+      <table class="lessonTable">
+          <tr><td onclick="openLsn(1)">Урок 1</td></tr>
+          <tr><td onclick="openLsn(2)">Урок 2</td></tr>
+          <tr><td onclick="openLsn(3)">Урок 3</td></tr>
+          <tr><td onclick="openLsn(4)">Урок 4</td></tr>
+          <tr><td onclick="openLsn(5)">Урок 5</td></tr>
+          <tr><td onclick="openLsn(6)">Урок 6</td></tr>
+          <tr><td onclick="openLsn(7)">Урок 7</td></tr>
+          <tr><td onclick="openLsn(8)">Урок 8</td></tr>
+          <tr><td onclick="openLsn(9)">Урок 9</td></tr>
+          <tr><td onclick="openLsn(10)">Урок 10</td></tr>
+
+
       </table>
     </div>
     <div id="textPart" class="textPart">
-        <p>Равным образом консультация с широким активом требуют определения и уточнения модели развития. Если у вас есть какие то интересные предложения, обращайтесь! Студия Web-Boss всегда готова решить любую задачу. С другой стороны укрепление и развитие структуры обеспечивает участие в формировании систем массового участия. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Равным образом консультация с широким активом требуют определения и уточнения модели развития.</p>
+        <p>реформация</p>
         <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Равным образом консультация с широким активом требуют определения и уточнения модели развития. Повседневная практика показывает, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
         <p>С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Идейные соображения высшего порядка, а также укрепление и развитие структуры играет важную роль в формировании существенных финансовых и административных условий.</p>
         <p>Таким образом новая модель организационной деятельности способствует подготовки и реализации систем массового участия. Значимость этих проблем настолько очевидна, что консультация с широким активом играет важную роль в формировании новых предложений. Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
@@ -107,14 +126,14 @@
         <p>Значимость этих проблем настолько очевидна, что консультация с широким активом играет важную роль в формировании новых предложений. Равным образом консультация с широким активом требуют определения и уточнения модели развития. Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу.</p>
     </div>
     <div id = "kdpv" class="kdpv">
-            <img src="res/image.bmp" class="image"/>
+            <img id="kdpvImage" src="res/image.bmp" class="image"/>
     </div>
 </div>
 
 <script>
 
     let lessons;
-    fetch("http://192.168.0.248:8080/res/lesson_1.json").then(async (response) => {
+    fetch("res/lesson_1.json").then(async (response) => {
         const data = await response.json();
         lessons = data;
     })
@@ -123,7 +142,7 @@
 
 
     function openLsn(number) {
-
+        document.getElementById("kdpvImage").setAttribute("src", "res/kdpvLsn.bmp");
         let lesson = lessons.Lessons["Lesson_"+number];
         console.log(lesson);
         let iter = 1;
@@ -186,6 +205,7 @@
     }
 
     document.getElementById("header").onclick =  ()=> {
+        document.getElementById("kdpvImage").setAttribute("src", "res/image.bmp");
         if (document.getElementById("lesson"))
             document.getElementById("lesson").parentNode.removeChild(document.getElementById("lesson"));
         document.getElementById("textPart").removeAttribute("style");

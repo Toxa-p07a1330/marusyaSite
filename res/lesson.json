@@ -1,0 +1,334 @@
+{
+  
+  "Lessons":
+  {
+		"Lesson_1" : {
+			"1" : {
+			"Cross my heart and hope to die": "обещать, клясться"
+			},
+			"2" : {
+			"Make a killing": "очень быстро разбогатеть, приложив к этому минимум усилий"
+			},
+			"3" : {
+			"Speak of the devil": "легок на помине"
+			},
+            "4" : {
+           "To send someone to Coventry ": "намеренно прекратить общение"
+           },
+           "5" : {
+           "Dark horse": "неожиданно сильный кандидат"
+           },
+           "6" : {
+           "Break a leg": "пожелание удачи"
+           },
+           "7" : {
+           "Jack of all trades": "мастер на все руки"
+           },
+           "8" : {
+           "And all that jazz": "остальное бессмысленно"
+           },
+           "9" : {
+           "Lose your touch": "потерять способность"
+           },
+           "10" : {
+           "Bob's your uncle": "и дело с концом"
+		    }
+		},
+		
+		"Lesson_2" : {
+			"1" : {
+			"Cut corners": "сделать что-то самым простым путем"
+			},
+			"2" : {
+			"Jump on the bandwagon ": "присоединиться к популярному движению, из-за других"
+			},
+			"3" : {
+			"Monkey business": "валяние дурака"
+			},
+           "4" : {
+           "Let's sleeping dogs lie": "«не касаться неприятных вопросов»"
+           },
+           "5" : {
+           "It is not my cup of tea": "это не по мне, не по вкусу"
+           },
+           "6" : {
+           "It is still up in the air": "нерешенное до конца дело"
+           },
+           "7" : {
+           "To promise the moon": "обещать что-то невозможное"
+           },
+           "8" : {
+           "Butter the boss up": "подлизываться"
+           },
+           "9" : {
+           "Just what the doctor ordered": "то, что нужно"
+           },
+           "10" : {
+           "Your roof is running away from you": "сумасшедший на всю голову"
+		    }
+		},
+		
+		"Lesson_3" : {
+			"1" : {
+			"As cool as a cucumber ": "спокойный, умиротворенный"
+			},
+			"2" : {
+			"Have a frog in the throat": "охрипнуть, потерять дар речи от страха"
+			},
+			"3" : {
+			"A piece of cake": "пустяковое дело, проще простого"
+			},
+           "4" : {
+           "Give someone the cold shoulder": "игнорировать, оказывать холодный прием"
+           },
+           "5" : {
+           "Have one’s finger in every pie": "быть замешанным в каком-либо деле"
+           },
+           "6" : {
+           "Sit on the fence": "сохранять нейтралитет"
+           },
+           "7" : {
+           "Keen as mustard": "полный энтузиазма"
+           },
+           "8" : {
+           "A wet blanket": "человек, отравляющий другим удовольствие"
+           },
+           "9" : {
+           "Once in a blue moon": "очень редко"
+           },
+           "10" : {
+           "A blessing in disguise": "неприятность, оказавшаяся благом"
+		    }
+		},
+		
+
+               "Lesson_4" : {
+			"1" : {
+			"Cut corners": "сделать что-то самым простым путем"
+			},
+			"2" : {
+			"Jump on the bandwagon ": "присоединиться к популярному движению, из-за других"
+			},
+			"3" : {
+			"Monkey business": "валяние дурака"
+			},
+           "4" : {
+           "Let's sleeping dogs lie": "«не касаться неприятных вопросов»"
+           },
+           "5" : {
+           "It is not my cup of tea": "это не по мне, не по вкусу"
+           },
+           "6" : {
+           "It is still up in the air": "нерешенное до конца дело"
+           },
+           "7" : {
+           "To promise the moon": "обещать что-то невозможное"
+           },
+           "8" : {
+           "Butter the boss up": "подлизываться"
+           },
+           "9" : {
+           "Just what the doctor ordered": "то, что нужно"
+           },
+           "10" : {
+           "Your roof is running away from you": "сумасшедший на всю голову"
+		    }
+		},
+ 
+                "Lesson_5" : {
+           "1" : {
+           "To go off one’s rocker": "спятить, тронуться, сойти с ума"
+           },
+           "2" : {
+           "To go out of one’s way": "всячески стараться, приложить все усилия"
+           },
+           "3" : {
+           "To make things hum": "развить бурную деятельность"
+           },
+           "4" : {
+           "To pull leg": "морочить голову, подшучивать, дурачить"
+           },
+           "5" : {
+           "To stick neck out": "рисковать, ставить себя под удар, лезть на рожон"
+           },
+           "6" : {
+           "To turn one’s attention": "переключить внимание"
+           },
+           "7" : {
+           "Up-to-the-minute": "по последней моде"
+           },
+           "8" : {
+           "You name it": "всего не перечислить, и тому подобное"
+           },
+           "9" : {
+           "Get off my back!": "оставь меня в покое!"
+           },
+           "10" : {
+           "The noon of life": "лучшее время жизни"
+           }
+		},
+
+                "Lesson_6" : {
+           "1" : {
+           "To baby-sit": "поддерживать; помогать в тяжёлую минуту"
+           },
+           "2" : {
+           "To ease mind": "умерить свою тревогу, успокоиться"
+           },
+           "3" : { 
+           "To have plenty time to kill": "иметь много свободного времени"
+           },
+           "4" : {
+           "To have the heart to do": "решиться сделать"
+           },
+           "5" : {
+           "To let down": "не оправдать ожидания"
+           },
+           "6" : {
+           "To turn in": "лечь спать"
+           },
+           "7" : {
+           "To miss the boat": "упустить возможность"
+           },
+           "8" : {
+           "To miss out on": "не быть участником"
+           },
+           "9" : {
+           "Chicken tracks": "неразборчивый почерк"
+           },
+           "10" : {
+           "Twisted someone’s arm": "оказывать давление"
+                }
+		},
+
+                "Lesson_7" : {
+           "1" : {
+           "He who pleased everybody died before he was born?": "всем не угодишь"
+           },
+           "2" : {
+           "A storm in a teacup": "много шума из-за ничего"
+           },
+           "3" : {
+           "А doubting Thomas": "скептик, отказывающийся верить в неподтвержденные факты"
+           },
+           "4" : {
+           "A penny for your thought": "явное желание узнать, о чем задумался собеседник"
+           },
+           "5" : {
+           "Go the extra mile": "проявить энтузиазм"
+           },
+           "6" : {
+           "Heart in your mounth": "очень испуганный, тревожный"
+           },
+           "7" : {
+           "Wear your heart in your sleeve": "не скрывать свои своих чувств"
+           },
+           "8" : {
+           "Foam at the mouth": "быть в бешенстве"
+           },
+           "9" : {
+           "A slap on the wrist": "легкое наказание"
+           },
+           "10" : {
+           "This party is on fire!": "на этой вечеринке круто!"
+                }
+		},
+                "Lesson_8" : {
+           "1" : {
+           "All talk and no trousers": "пустые разговоры, разговоры без дела"
+           },
+           "2" : {
+           "Hairy at the heel": "невоспитаный, грубый"
+           },
+           "3" : {
+           "Cat got your tongue": "проглотить язык", молчать"
+           },
+           "4" : {
+           "More holes than a Swiss cheese": "больше проблем, чем пользы"
+           },
+           "5" : {
+           "You are the apple of my eye!": "ты мне очень дорог(а)!"
+           },
+           "6" : {
+           "You stole my thunder": "перехватывать инициативу"
+           },
+           "7" : {
+           "To chew the fat": "беседовать по-дружески"
+           },
+           "8" : {
+           "To waste one’s breath": "говорить впустую"
+           }, 
+           "9" : {
+           "An off-the-cuff remark": "импровизация"
+           },
+           "10" : {
+           "To pick holes in something": "придираться"
+                }
+		},
+                "Lesson_9" : {
+           "1" : {
+           "To be thick as thieves": "быть закадычными друзьями"
+           },
+           "2" : {
+           "To get on like a house on fire": "быстро подружиться"
+           },
+           "3" : {
+           "To hold court": "быть в центре внимания"
+           },
+           "4" : {
+           "A broken reed": "ненадежный человек"
+           },
+           "5" : {
+           "To get something off one’s chest": "излить душу"
+           },
+           "6" : {
+           "To be crazy as a bedbug": "глупо поступать"
+           },
+           "7" : {
+           "To catch somebody flat-footed": "застать врасплоx"
+           },
+           "8" : {
+           "To set the place": "подавать пример"
+           },
+           "9" : {
+           "Hot air": "пустые обещания"
+           },
+           "10" : {
+           "To get one’s eye in": "набраться опыта"
+                }
+		},
+           "Lesson_10" : {
+           "1" : {
+           "To fill the bill": "иметь нужные качества"
+           },
+           "2" : {
+           "To get the boot": "уволиться"
+           },
+           "3" : {
+           "The buck stops here": "это мое дело"
+           },
+           "4" : {
+           "Bread and butter": "главный источник дохода"
+           },
+           "5" : {
+           "To wring one’s hands": "страдать"
+           },
+           "6" : {
+           "To do somebody’s head in": "расстраивать"
+           },
+           "7" : {
+           "To get egg on one’s face": "опозориться"
+           },
+           "8" : {
+           "Not to give a hoot about something": "проявлять равнодушие"
+           },
+           "9" : {
+           "To fight to the death": "стремиться достичь чего-либо"
+           },
+           "10" : {
+           "To be dry as dust": "быть нудным"
+
+               	}
+		}
+	}
+}
