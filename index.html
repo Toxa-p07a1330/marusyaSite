@@ -173,23 +173,31 @@
 
 
     function chech(map, clicked, prevClicked) {
+        var succesd = 0;
 
-        console.log(map.get(prevClicked) + "___"+ clicked);
-        console.log(map.get(clicked) + "____"+prevClicked);
+        console.log(map.get(prevClicked) + "___" + clicked);
+        console.log(map.get(clicked) + "____" + prevClicked);
 
         if ((map.get(prevClicked) === clicked) || (map.get(clicked) === prevClicked)) {
             let updArr = document.getElementsByClassName("innerCell");
-            for (let i = 0; i < updArr.length-1; i++)
-            {
-                if (updArr[i].innerHTML.indexOf(clicked) >-1)
+            for (let i = 0; i < updArr.length; i++) {
+                if (updArr[i].innerHTML.indexOf(clicked) > -1) {
                     updArr[i].setAttribute("style", "background-color:green");
+                    succesd++;
+                }
 
-                if (updArr[i].innerHTML.indexOf(prevClicked) >-1)
+                if (updArr[i].innerHTML.indexOf(prevClicked) > -1) {
                     updArr[i].setAttribute("style", "background-color:green");
+                    succesd++;
+                }
+                if (succesd === 5) {
+                    document.getElementsByClassName("lessonBody")[0].innerHTML = "";
+                    alert("Finished!");
+                    succesd=0;
+                }
             }
         }
     }
-
 
     function openLsn(number) {
         let map = new Map();
